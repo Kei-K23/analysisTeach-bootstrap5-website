@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-color: (
+  "blur": rgba(0, 0, 0, 0.9),
+  "darkblue": darkblue,
+  "skyblue": skyblue,
+);
+
+$theme-colors: map-merge($custom-theme-color, $theme-colors);
+// $spacers: map-merge($custom-spacing, $spacers);
+@import "../node_modules/bootstrap/scss/bootstrap";

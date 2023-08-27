@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <style>
+      #custom-style-4,
+      #custom-style-5,
+      #custom-style-6,
+      #custom-style-7,
+      #custom-style-8 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      #about {
+        margin: 10rem 0;
+      }
+
+      #custom-style-1 {
+        position: absolute;
+        bottom: -2rem;
+        right: -4rem;
+        width: 40%;
+        height: 220px;
+      }
+
+      #custom-style-2 {
+        position: absolute;
+        top: -1rem;
+        left: -2rem;
+        z-index: 10;
+        width: 40%;
+        padding: 1rem;
+        text-align: center;
+        background-color: skyblue;
+        font-size: 1.1rem;
+      }
+      #custom-style-3 {
+        height: 100vh;
+      }
+      #custom-style-9 {
+        min-height: 400px;
+      }
+    </style>
+    <title>AnalysisTech</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-xxl">
+        <a class="navbar-brand text-primary" href="#">
+          <i class="bi bi-pie-chart-fill"></i>
+          AnalysisTech</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testiomonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item d-block d-md-none">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block">
+          <button class="btn btn-primary rounded-pill">Register</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main and intro  -->
+    <section id="home">
+      <div
+        class="container-fluid text-center p-0 position-relative"
+        id="custom-style-3"
+      >
+        <div id="custom-style-4"></div>
+        <img
+          class="w-100 h-100"
+          src="assets/Rectangle 2.png"
+          alt="intro image"
+        />
+
+        <div class="position-absolute top-50 start-50 translate-middle z-2">
+          <h2 class="display-5 text-light mb-4">
+            The best IT service for your security
+          </h2>
+          <p class="lead text-light">
+            AnalysisTech allows your business and technology computers to store
+            and manipulate big data in the digital world.
+          </p>
+
+          <a
+            class="btn btn-outline-primary btn-lg text-light border-4"
+            href="#home"
+            >Discover Hub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- hero section  -->
+    <section id="service" class="my-5">
+      <div class="container-lg">
+        <div class="row mx-4 mx-lg-0 justify-content-around g-3">
+          <div class="col-lg-3 card border-2">
+            <div class="card-body text-center">
+              <i
+                class="bi bi-gear-wide-connected fs-1 py-1 pt-2 px-2 rounded-pill bg-primary"
+              ></i>
+              <h5 class="card-title">Core WordPress</h5>
+              <h6 class="card-subtitle mb-2 text-muted">WordPress</h6>
+              <p class="card-text">
+                AnalysisTech allows your business and technology computers to
+                store, analyze, and manipulate big data in the digital world.
+              </p>
+              <a href="#" class="card-link">learn more</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 card border-2">
+            <div class="card-body text-center">
+              <i
+                class="bi bi-wrench-adjustable-circle fs-1 py-1 pt-2 px-2 rounded-pill bg-primary"
+              ></i>
+              <h5 class="card-title">Core JavaScript</h5>
+              <h6 class="card-subtitle mb-2 text-muted">JavaScript</h6>
+              <p class="card-text">
+                AnalysisTech allows your business and technology computers to
+                store, analyze, and manipulate big data in the digital world.
+              </p>
+              <a href="#" class="card-link">learn more</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 card border-2">
+            <div class="card-body text-center">
+              <i
+                class="bi bi-gear-fill fs-1 py-1 pt-2 px-2 rounded-pill bg-primary"
+              ></i>
+              <h5 class="card-title">Core PHP</h5>
+              <h6 class="card-subtitle mb-2 text-muted">PHP</h6>
+              <p class="card-text">
+                AnalysisTech allows your business and technology computers to
+                store, analyze, and manipulate big data in the digital world.
+              </p>
+              <a href="#" class="card-link">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- company's vision  -->
+    <section id="about">
+      <div class="container-lg">
+        <div class="row justify-content-between gap-2">
+          <div class="col-lg-5">
+            <div class="w-75 h-75 m-auto position-relative">
+              <div id="custom-style-2">10+ Years Experiences</div>
+              <img
+                class="w-100 h-100"
+                src="assets/Rectangle 4.png"
+                alt="company vision photo"
+              />
+              <img
+                id="custom-style-1"
+                src="assets/Rectangle 5.png"
+                alt="company vision photo"
+              />
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h5 class="text-muted">COMPANY'S VISION</h5>
+            <h2 class="h1">IT solutions for your business</h2>
+            <p class="lead">
+              AnalysisTech allows your business and technology computers to
+              store, transmit, analyze, and manipulate big data in the digital
+              world.
+            </p>
+            <a class="btn btn-primary" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="product" class="mb-5">
+      <div class="container-lg">
+        <h2 class="h1 text-center">IT solutions foryour business.</h2>
+        <p class="lead text-muted text-center mt-3">
+          AnalysisTech allows your business and technology computers to store,
+          transmit, analyze,and manipulate big data in the digital world.
+        </p>
+        <div class="row mx-4 mx-lg-0 justify-content-around mt-5 gap-3">
+          <div class="card p-0 col-lg-3">
+            <img
+              src="assets/Rectangle9.jpeg"
+              class="card-img-top h-100"
+              alt="programming"
+            />
+            <div class="card-body">
+              <h5 class="card-title">It Security</h5>
+              <p class="card-text">
+                AnalysisTech allows your business and technology computers to
+                store, transmit, analyze, and manipulate big data in the digital
+                world.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-0 col-lg-3">
+            <img
+              src="assets/Rectangle 8.png"
+              class="card-img-top h-100"
+              alt="programming"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mobile Data</h5>
+              <p class="card-text">
+                AnalysisTech allows your business and technology computers to
+                store, transmit, analyze, and manipulate big data in the digital
+                world.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-0 col-lg-3">
+            <img
+              src="assets/Rectangle 7.png"
+              class="card-img-top h-100"
+              alt="programming"
+            />
+            <div class="card-body">
+              <h5 class="card-title">For Companies</h5>
+              <p class="card-text">
+                AnalysisTech allows your business and technology computers to
+                store, transmit, analyze, and manipulate big data in the digital
+                world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+            <div id="custom-style-5"></div>
+            <img
+              src="assets/Rectangle12.jpg"
+              class="d-block w-100"
+              alt="programming quote img 1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p class="display-4">
+                “First, solve the problem. Then, write the code.”
+              </p>
+              <h5>John Johnson</h5>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <div id="custom-style-6"></div>
+            <img
+              src="assets/Rectangle 15.jpeg"
+              class="d-block w-100"
+              alt="programming quote img 2"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p class="display-4">
+                “Any fool can write code that a computer can understand. Good
+                programmers write code that humans can understand.”
+              </p>
+              <h5>Martin Fowler</h5>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <div id="custom-style-5"></div>
+            <img
+              src="assets/Rectangle 14.jpg"
+              class="d-block w-100"
+              alt="programming quote img 3"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p class="display-4">
+                “ In order to be irreplaceable, one must always be different”
+              </p>
+              <h5>Coco Chanel</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="product" class="my-5">
+      <h2 class="h1 text-center mb-4">Why our products are so popular</h2>
+      <div class="row mx-4 mx-lg-0 justify-content-around g-3 mt-2">
+        <div class="col-lg-3 card bg-primary">
+          <div class="card-body">
+            <i class="bi bi-body-text fs-1 py-1 pt-2 px-2 rounded-pill"></i>
+            <h5 class="card-title text-light">Solve Problems Real Time</h5>
+            <p class="card-text text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              repudiandae! Velit veniam cum earum ex. Beatae laborum eligendi
+              velit harum temporibus, veritatis eius atque odit.
+            </p>
+            <a href="#" class="card-link">learn more</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card border-0 bg-primary">
+          <div class="card-body">
+            <i
+              class="bi bi-file-earmark-lock-fill fs-1 py-1 pt-2 px-2 rounded-pill bg-primary"
+            ></i>
+            <h5 class="card-title text-light">Core JavaScript</h5>
+            <p class="card-text text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae dicta, architecto accusamus unde sunt illum suscipit,
+              magnam doloribus tempora adipisci repudiandae inventore amet, quae
+              voluptatem?
+            </p>
+            <a href="#" class="card-link">learn more</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card border-0 bg-primary">
+          <div class="card-body">
+            <i
+              class="bi bi-calendar-check fs-1 py-1 pt-2 px-2 rounded-pill bg-primary"
+            ></i>
+            <h5 class="card-title text-light">Core PHP</h5>
+            <p class="card-text text-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati fuga architecto facere itaque, iste animi unde optio
+              sequi quos suscipit nemo illo consequatur exercitationem tenetur.
+            </p>
+            <a href="#" class="card-link">learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="my-5">
+      <div class="container-lg">
+        <h2 class="h1 text-center mb-5">Testiomonials</h2>
+        <div class="card mb-3 m-auto" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="assets/testimonial_1.jpg"
+                class="img-fluid w-100"
+                alt="testimonial img"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Satisfied Customers</h5>
+                <p class="card-text">
+                  Every detail has been taken care these team are realy amazing
+                  and talented! They can help me with fast and accurate
+                  solutions to all kinds of issues. Love it! Five stars for
+                  them.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Joeby Ragpa</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="my-5">
+      <div class="container-fluid p-0 position-relative">
+        <div id="custom-style-8"></div>
+        <img
+          id="custom-style-9"
+          class="w-100 h-auto"
+          src="assets/cta_img.jpg"
+          alt="cta img"
+        />
+        <div class="position-absolute top-50 start-50 translate-middle w-75">
+          <h2 class="text-light">
+            Ready to get started? Get your Finance out of the way
+          </h2>
+          <p class="text-light">
+            If you deliver enough value, making money becomes the easy part. Why
+            should you be stressful? Let us make this easier for you.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact form</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email your name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="jack"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput2"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Contact Details</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              data-bs-dismiss="modal"
+              type="button"
+              class="btn btn-primary"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-3 py-5">
+      <div class="container-fluid px-5">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <a class="navbar-brand text-primary fs-1" href="#">
+              <i class="bi bi-pie-chart-fill"></i>
+              AnalysisTech</a
+            >
+            <ul class="list-group mt-2">
+              <li class="list-group-item border-0 p-0">
+                <i class="bi bi-facebook"></i>
+                <span>Facebook</span>
+              </li>
+              <li class="list-group-item border-0 p-0">
+                <i class="bi bi-whatsapp"></i>
+                <span>Whatsapp</span>
+              </li>
+              <li class="list-group-item border-0 p-0">
+                <i class="bi bi-instagram"></i>
+                <span>Instagram</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h4>Solution</h4>
+            <ul class="list-group">
+              <li class="list-group-item border-0 p-0 text-muted">
+                Finance Strategy
+              </li>
+              <li class="list-group-item border-0 p-0 text-muted">
+                Advertising
+              </li>
+              <li class="list-group-item border-0 p-0 text-muted">SMM</li>
+              <li class="list-group-item border-0 p-0 text-muted">SEO</li>
+              <li class="list-group-item border-0 p-0 text-muted">
+                Google AdWords
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h4>Company</h4>
+            <p class="text-muted">
+              8910 University Center Lane Suite 620 San Diego, CA 92102 Phone
+              858-490-6910 Fax 858-490-6985
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
